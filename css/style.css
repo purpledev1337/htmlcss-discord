@@ -1,5 +1,28 @@
+/* general */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container-center {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15%;
+    font-size: 25px;
+}
+
+/* header */
+header {
+    height: 300px;
+    background-color: #698ef0;
+}
+
+#logo {
+    height: 50px;
 }
