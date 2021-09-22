@@ -81,7 +81,7 @@ header nav .btn {
     margin-bottom: 30px;
 }
 
-.jumbotron p, .col p {
+.jumbotron p, .col p, .row p {
     font-size: 25px;
     margin: 50px auto;
 }
@@ -92,8 +92,12 @@ header nav .btn {
 }
 
 /* main */
-main > section {
-    margin: 200px 0;
+main section {
+    padding: 150px 0;
+}
+
+section.inverted, section.upside {
+    background-color: lightgray;
 }
 
 .col {
@@ -108,6 +112,7 @@ main > section {
 .inverted .txt {
     padding-right: 200px;
 }
+
 .normal .txt {
     padding-left: 200px;
 }
@@ -116,3 +121,17 @@ main > section {
     font-size: 50px;
 }
 
+.txt h3 {
+    font-size: 35px;
+    margin: 20px auto;
+    background-image: url("../img/stars.svg");
+    width: 60%;
+    height: 2em;
+}
+.row {
+    text-align: center;
+}
+
+.upside img {
+    width: 100%;
+}
