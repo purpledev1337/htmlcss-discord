@@ -9,6 +9,11 @@ body {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+p {
+    font-size: 25px;
+    margin: 50px auto;
+}
+
 .container-center {
     width: 70%;
     margin: 0 auto;
@@ -16,11 +21,17 @@ body {
 
 .btn {
     text-decoration: none;
-    background-color: white;
-    border-radius: 20px;
-    padding: 10px;
-    font-size: 25px;
+    /* background-color: white; */
+    border-radius: 50px;
+    padding: 20px 25px;
+    font-size: 22px;
 }
+
+#login-btn {
+    background-color: white;
+    padding: 10px 15px;
+}
+
 
 a:visited {
     color: inherit;
@@ -35,64 +46,71 @@ a:visited {
 /* header */
 /* nav */
 header {
-    /* height: 70%; */
     color: white;
-    padding-top: 25px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     background-image: url("../img/jumbo.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #logo {
     float: left;
-    height: 50px;
+    /* height: 50px; */
 }
 
-.menu-center {
-    display: block;
-    width: 60%;
-    height: 50px;
-    margin: 0 25%;
+nav ul {
+    /* height: 50px; */
+    line-height: 50px;
+    float: left;
+    margin: 0 15%;
 }
 
 header ul li {
     float: left;
     list-style: none;
-    line-height: 50px;
-    font-size: 25px;
-    margin: 0 35px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 25px;
 }
 
 header ul li a {
     text-decoration: none;
+    float: right;
 }
 
 header nav .btn {
-    float: right;
+    display: inline-block;
+    font-size: 18px;
     color: black;
 }
 
 /* jumbo */
 .jumbotron {
     width: 60%;
-    margin: 10% auto;
+    margin: 15% auto;
     text-align: center;
 }
 
 .jumbotron h1 {
     font-size: 60px;
-    padding: 0 40px;
-    margin-bottom: 30px;
-}
-
-.jumbotron p, .col p, .row p {
-    font-size: 25px;
-    margin: 50px auto;
 }
 
 .jumbotron .btn {
     margin: 0 20px;
+}
+
+.jumbotron a:first-of-type {
     color: black;
+}
+
+.jumbotron a:last-of-type {
+    background-color: black;
+}
+
+.jumbotron i {
+    margin-right: 10px;
 }
 
 /* main */
@@ -101,7 +119,7 @@ main section {
 }
 
 section.inverted, section.upside {
-    background-color: lightgray;
+    background-color: rgb(240, 240, 240);
 }
 
 main .col {
@@ -109,7 +127,7 @@ main .col {
     float: left;
 }
 
-.inverted .col {
+main .inverted .col {
     float: right;
 }
 
@@ -140,41 +158,64 @@ main .col {
     width: 100%;
 }
 
+.upside .row i {
+    margin-right: 10px;
+}
+
+.upside a {
+    color: white;
+    background-color: #698ef0;
+}
+
 /* footer */
 footer {
-    background-color: rgb(50, 50, 50);
+    background-color: rgba(10, 10, 10, 0.9);
+    padding: 60px 0;
 }
 
 footer aside {
-    width: 40%;
+    width: 20%;
     float: left;
-    padding-right: 20px;
+    margin-right: 12%;
 }
 
 footer h3 {
     font-size: 40px;
+    color: #698ef0;
 }
 
 footer .col {
     width: 15%;
     float: left;
     margin-bottom: 20px;
+    margin-right: 1%;
     /* debug */
     /* border: 2px solid violet; */
 }
 
 footer li {
     list-style: none;
+    margin: 15px 0;
+    font-size: 18px;
+    color: white;
 }
 
-footer h6 {
-    font-size: 22px;
+footer li:first-child {
+    color: #698ef0;
+    font-weight: bold;
 }
 
 #bottom-footer {
     border-top: 1px solid #698ef0;
-    padding-top: 20px;
-    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#reg-btn {
+    font-size: 16px;
+    background-color: #698ef0;
+    color: white;
+    padding: 10px 15px;
 }
 
 #bottom-footer a {
