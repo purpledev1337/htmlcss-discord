@@ -100,7 +100,7 @@ section.inverted, section.upside {
     background-color: lightgray;
 }
 
-.col {
+main .col {
     width: 50%;
     float: left;
 }
@@ -134,4 +134,45 @@ section.inverted, section.upside {
 
 .upside img {
     width: 100%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(50, 50, 50);
+}
+
+footer aside {
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+
+footer h3 {
+    font-size: 40px;
+}
+
+footer .col {
+    width: 15%;
+    float: left;
+    margin-bottom: 20px;
+    /* debug */
+    border: 2px solid violet;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer h6 {
+    font-size: 22px;
+}
+
+#bottom-footer {
+    border-top: 1px solid #698ef0;
+    padding-top: 20px;
+    height: 150px;
+}
+
+#bottom-footer a {
+    float: right;
 }
