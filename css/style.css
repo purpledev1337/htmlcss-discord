@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .container-center {
     width: 70%;
     margin: 0 auto;
@@ -156,7 +160,7 @@ footer .col {
     float: left;
     margin-bottom: 20px;
     /* debug */
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
 }
 
 footer li {
