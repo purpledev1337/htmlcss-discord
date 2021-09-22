@@ -103,6 +103,7 @@ header nav .btn {
 
 .jumbotron a:first-of-type {
     color: black;
+    background-color: white;
 }
 
 .jumbotron a:last-of-type {
