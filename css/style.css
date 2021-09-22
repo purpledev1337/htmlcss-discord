@@ -22,10 +22,16 @@ a:visited {
     color: inherit;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* header */
 /* nav */
 header {
-    height: 70vh;
+    height: 70%;
     color: white;
     padding-top: 25px;
     background-image: url("../img/jumbo.png");
@@ -73,8 +79,21 @@ header nav .btn {
     margin-bottom: 30px;
 }
 
-.jumbotron p {
-    font-size: 20px;
+.jumbotron p, .col p {
+    font-size: 25px;
     margin: 20px auto;
 }
 
+/* main */
+.col {
+    width: 50%;
+    float: left;
+}
+
+.txt {
+    padding-left: 200px;
+}
+
+.txt h2 {
+    font-size: 50px;
+}
