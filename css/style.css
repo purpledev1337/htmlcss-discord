@@ -178,11 +178,27 @@ footer aside {
     width: 20%;
     float: left;
     margin-right: 12%;
+    color: white;
+}
+
+footer aside img {
+    width: 25px;
+}
+
+.social-bar {
+    margin-top: 25px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.social-bar i {
+    margin: 0 15px;
 }
 
 footer h3 {
     font-size: 40px;
     color: #698ef0;
+    margin-bottom: 25px;
 }
 
 footer .col {
@@ -221,4 +237,9 @@ footer li:first-child {
 
 #bottom-footer a {
     float: right;
+}
+
+/* wave */
+.custom-shape-divider-top-1632384513 svg {
+    color: wheat;
 }
